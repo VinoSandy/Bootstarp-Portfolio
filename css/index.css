@@ -1,0 +1,6 @@
+.hero{
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
