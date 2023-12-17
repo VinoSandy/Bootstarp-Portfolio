@@ -52,3 +52,16 @@
     box-shadow: 0 0 10px rgba(255, 136, 0, 0.655); /* Adjust the shadow properties as needed */
     transform: scale(1.05); /* Add a slight scale effect on hover */
 }
+/*Skills Section*/
+.skills-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    padding: 20px;
+}
+h2 {
+    color: #007bff;
+}
+.list-group-item {
+    border: none; /* Remove borders from list items */
+}
