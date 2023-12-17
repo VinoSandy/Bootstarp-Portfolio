@@ -41,3 +41,14 @@
 .profileimage{
     width: 100%;
 }
+
+/*Work section*/
+.card {
+    /* Your existing card styles go here */
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect for scale */
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(255, 136, 0, 0.655); /* Adjust the shadow properties as needed */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
