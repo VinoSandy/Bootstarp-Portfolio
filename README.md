@@ -15,7 +15,7 @@
  ### Navigation Bar:
      The navigation bar contains content Links of the portfolio and helps the user to navigate to the respective content of the page. All the links gets highlited when the user hover over the links.
 
-     ![Nav Bar Screenshot ](./images/nav_screen.png)
+     <img width="914" alt="nav_screen" src="https://github.com/VinoSandy/Bootstarp-Portfolio/assets/151744536/9647107a-e240-44f4-add4-6fd99dc90b7c">
 
  ### About:
      On selecting about section, the user gets navigated to the About Me content of the page.
