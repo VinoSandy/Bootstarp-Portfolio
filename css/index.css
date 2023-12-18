@@ -1,19 +1,34 @@
-
-
-.customNav {
-    position: fixed;
+/*Global Styling*/
+body {
     width: 100%;
-    background-color:black !important ;
-    background-size: cover;
-    z-index: 10;
+    height: 100%;
   }
-
-.customNav a {
-  color: white !important;
+  
+  body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  }
+.h2.h3.h4.h5.h6{
+    color: #000000;
 }
 
+/*Navigation Section*/
+.navbar {
+    background-color:#000000 !important; 
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+    transition: background-color 0.3s ease;
+}
+.navbar-toggler-icon {
+    background-color: #9f1616 !important; 
+}
 
+.navbar-nav .nav-link:hover {
+    background-color: rgba(173, 183, 175, 0.2); /* Change background color on hover */
+}
 
+/*Hero Section*/
 .hero_section{
     height:100vh;
     background: url('../images/hero_img.jpg');
@@ -21,7 +36,7 @@
     position:relative;
 }
 
-/*Styling over Jumbotron Section*/
+/*Styling over Jumbotron */
 .display-4 {
     font-size: 4.5rem;
 }
@@ -44,14 +59,14 @@
 
 /*Work section*/
 .card {
-    /* Your existing card styles go here */
-    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect for scale */
+    transition: transform 0.2s ease-in-out; 
 }
 
 .card:hover {
-    box-shadow: 0 0 10px rgba(255, 136, 0, 0.655); /* Adjust the shadow properties as needed */
-    transform: scale(1.05); /* Add a slight scale effect on hover */
+    box-shadow: 0 0 10px rgba(255, 136, 0, 0.655); 
+    transform: scale(1.05); /* Add a shadow effect on hover */
 }
+
 /*Skills Section*/
 .skills-section {
     background-color: #fff;
@@ -59,9 +74,7 @@
     margin-top: 50px;
     padding: 20px;
 }
-h2 {
-    color: #007bff;
-}
+
 .list-group-item {
     border: none; /* Remove borders from list items */
 }
@@ -72,7 +85,7 @@ h2 {
     font-size: 36px;
     cursor: pointer;
 }
-.fa-instagram:hover,.fa-linkedin:hover {
+.fa-instagram:hover,.fa-linkedin:hover, .fa-github:hover {
     color: #008000;
 }
 .fab {
@@ -84,17 +97,12 @@ h2 {
     text-align: center;
 }
 
-
-/*
-#footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
 }
-.social-icons a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-}*/
+#contact {
+    padding-bottom: 4rem;
+}
+
