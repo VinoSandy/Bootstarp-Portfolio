@@ -15,7 +15,9 @@
  ### Navigation Bar:
      The navigation bar contains content Links of the portfolio and helps the user to navigate to the respective content of the page. All the links gets highlited when the user hover over the links.
 
+
      ![Nav Bar Screenshot ](./assets/images/nav_screen.png)
+    
 
  ### About:
      On selecting about section, the user gets navigated to the About Me content of the page.
